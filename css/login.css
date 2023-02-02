@@ -235,8 +235,9 @@ body {
 }
 
 .container-login .remember-me input:checked ~ .checkmark {
-  background: var(--primary-color) url(assets/icons/check.png) center no-repeat;
-  background-size: 60%;
+  background: var(--primary-color) url(../assets/icons/check.png) center
+    no-repeat;
+  background-size: 80%;
   transition: 0.2s ease;
   border-color: var(--primary-color);
 }
