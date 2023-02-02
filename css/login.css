@@ -1,18 +1,18 @@
 @font-face {
   font-family: 'SFCompact';
-  src: url(/assets/fonts/SF-Compact-Rounded-Regular.ttf);
+  src: url(assets/fonts/SF-Compact-Rounded-Regular.ttf);
 }
 @font-face {
   font-family: 'SFCompactMed';
-  src: url(/assets/fonts/SF-Compact-Rounded-Medium.ttf);
+  src: url(assets/fonts/SF-Compact-Rounded-Medium.ttf);
 }
 @font-face {
   font-family: 'SFCompactSemi';
-  src: url(/assets/fonts/SF-Compact-Rounded-Semibold.ttf);
+  src: url(assets/fonts/SF-Compact-Rounded-Semibold.ttf);
 }
 @font-face {
   font-family: 'SFCompactBold';
-  src: url(/assets/fonts/SF-Compact-Rounded-Bold.ttf);
+  src: url(assets/fonts/SF-Compact-Rounded-Bold.ttf);
 }
 
 :root {
@@ -235,7 +235,7 @@ body {
 }
 
 .container-login .remember-me input:checked ~ .checkmark {
-  background: var(--primary-color) url(/assets/icons/check.png) center no-repeat;
+  background: var(--primary-color) url(assets/icons/check.png) center no-repeat;
   background-size: 60%;
   transition: 0.2s ease;
   border-color: var(--primary-color);
